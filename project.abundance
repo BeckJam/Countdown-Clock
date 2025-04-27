@@ -1,13 +1,41 @@
 {
     "atomType": "Molecule",
-    "name": "Countdown Clock",
+    "name": "Countdown-Clock",
     "x": 0,
     "y": 0,
     "uniqueID": 1745769434466,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1745769444633,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.4453781512605042,
+            "y": 0.45524296675191817,
+            "uniqueID": 1745769493945,
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 6
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new regular polygon. Corners are on the diameter."
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
